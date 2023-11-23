@@ -1,0 +1,254 @@
+.myBookContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gridBook {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.gridBook h1 {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.myBookContainer .BookItems{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding-left: 0;
+}
+
+.myBookContainer .BookItems li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    background-color: #fcbec159;
+    width: 1000px;
+    border-radius: 15px 40px 10px 15px  ;
+    overflow: hidden;
+}
+
+.myBookContainer .BookItems li > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+   
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #fff;
+    height: 300px;
+    min-width: 200px;
+    border-radius: 14px;
+    box-shadow: -13px -7px 24px -1px rgba(34, 137, 137, 0.54);
+    background: linear-gradient(45deg, #fff1eb, #ace0f9);
+}
+
+.myBookContainer .BookItems li div:nth-child(1) img{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+}
+
+.myBookContainer .BookItems li div:nth-child(1) p{
+    color: rgb(19, 113, 36);
+    text-overflow: ellipsis;
+    text-align: center;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.myBookContainer .BookItems li > div:nth-child(1) {
+    margin-left: 0px;
+}
+
+.description,
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.description {
+    height: 300px;
+    width: 550px;
+}
+
+.description h3,
+.description p,
+.description span {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.description h3 {
+    display: block;
+    height: 40px;
+    
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.description p {
+    display: block;
+    height: 160px;
+    overflow: hidden;
+    word-wrap: break-word;
+    color: #1b1414;
+    padding-right: 20px;
+
+}
+
+.description span {
+    display: block;
+
+    text-align: center;
+    /* font-weight: bold;
+    text-transform: uppercase; */
+    margin-top: auto;
+    height: 40px; 
+    font-size: 14px;
+    
+}
+
+.bookInfo {
+    margin-left: auto;
+    width: auto;
+    height: 300px;
+    background-color: #c2b2ac5e;
+}
+
+
+.countInfo {
+    display: flex;
+    font-size: 14px;
+}
+
+.countInfo span {
+    display: flex;
+    width: 80px;
+    height: 25px;
+    align-items: center;
+    
+    
+}
+
+.countInfo span:nth-child(1) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.countInfo span::before {
+    display: block;
+    content: "";
+    min-width: 25px;
+    height: 25px;
+    
+    margin-right: 5px;
+
+}
+
+.countInfo span:nth-child(1)::before {    
+    background-image: url(../images/InfoButtons/read.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.countInfo span:nth-child(2)::before {    
+    background-image: url(../images/InfoButtons/eye.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.libBibioteka {
+    margin-top: auto;
+    background-color: #d4c4c4b9;
+}
+
+.libBibioteka span {
+    display: flex;
+    height: 50px;
+    font-size: 14px;
+    width: 210px;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.libBibioteka span::before {
+    display: block;
+    content: "";
+    min-width: 40px;
+    height: 50px;
+    
+    margin-right: 10px;
+    
+    border-right: 2px dashed  #ee8989b9;
+}
+
+.libBibioteka span::before {    
+    background-image: url(../images/InfoButtons/bookmark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    
+}
+
+.libBibioteka span:hover {
+    background-color: #bd9e9eb9;
+}
+
+.libBibioteka span:hover::before {
+    border-right: 2px inset #dda7a7b9;
+    
+}
+
+.buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: bold; 
+}
+
+.contentInfo {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentInfo p{
+    margin: 0 0 10px;
+}

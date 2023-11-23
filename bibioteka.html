@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/header.css">
+		<link rel="stylesheet" href="static/css/footer.css">
+        <link rel="stylesheet" href="static/css/kategories.css">
+
+        <link rel="stylesheet" href="static/css/styleFormRegister.css">
+        <link rel="stylesheet" href="static/css/bibioteka.css">
+        <link rel="stylesheet" href="static/css/butoonsBookInfo.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a class="header-logo" href="index.html"></a>
+                <nav class="menu-header">
+                    <ul>
+                        <li><a href="index.html">Книги</a></li>
+                        <li><a href="manga.html">Манга</a></li>
+                        <li><a href="bibioteka.html">Библиотека</a></li>
+                    </ul>
+                </nav>
+                <form class="" action="/search" method="get">
+                    <div class="search">
+                        <input type="text" name="query" class="searchTerm" placeholder="Поиск">
+                        <button type="submit" class="searchButton"></button>
+                    </div>
+                </form>
+                <div class="optinMenu">
+                   <div class="optinFront">
+                        <span>Войти</span>
+                   </div>
+                   <div class="dropDown">
+                        <a href="#">Зарегистрироваться</a>
+                        <a href="#">Войти</a>
+                   </div>
+                   <div class="blockHome">
+                        <div class="opca"></div>
+                        <div class="register">
+                            <form class="form" action="" method="post">
+                                <input class="input" type="text" placeholder="Ваше имя">
+                                <input class="input" type="email" placeholder="Ваш e-mail">
+                                <input class="input" type="tel" placeholder="Ваш телефон">
+                                <input class="input" type="password" placeholder="Пароль">
+                                <input class="input" type="password" placeholder="Пароль еще раз">
+                                <button class="btn" type="submit">Регистрация</button>
+                            </form>
+                        </div>
+                        <div class="come">
+                            <form class="form" action="" method="post">
+                                <input class="input" type="email" placeholder="Ваш e-mail">
+                                <input class="input" type="password" placeholder="Пароль">
+                                <button class="btn" type="submit">Войти</button>
+                            </form>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container main">
+    
+
+            <div class="box">
+                <h1>Категории</h1>
+                <ul>
+                    <li class="oi"><span>Фантастика</span></li>
+                    <li class="oi"><span>Фэнтези</span></li>
+                    <li class="oi"><span>Проза</span></li>
+                    <li class="oi"><span>Триллеры</span></li>
+                    <li class="oi"><span>Мистика/Ужасы</span></li>
+                    <li class="oi"><span>Детективы</span></li>
+                    <li class="oi"><span>Разное</span>
+                        <!-- <ul class="boxInsid">
+                            <li>Детская литература</li>
+                            <li>Приключенческий роман</li>
+                            <li>Боевик</li>
+                            <li>Юмор</li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </div>
+
+            
+            <div class="myBookContainer">
+                <div class="gridBook">
+                    <h1>Библиотека</h1>
+                    <ul class="BookItems">
+                        <li>
+                            <div>
+                                <a href="prosmotr.html">
+                                    <img src="static/images/bibiotecaSrc/01.jpg" alt="">
+                                </a>                                
+                            </div>
+                            <div class="description">
+                                <h3>Ванпанчмен</h2>
+                                <p>Манга повествует о молодом человеке по имени Сайтама. Он — герой, обычный герой. Основная его проблема в том, что он вышибает дух из злодеев одним ударом. А это — очень скучно…</p>
+                                <span>Возрастное ограничение: 16+</span>
+                            </div>
+                            <div class="bookInfo">
+                                <div class="buts"> 
+                                    <button>Читать</button>
+                                    <button>Просмотр</button>
+                                </div>
+                                <div class="countInfo">
+                                    <span title="Кол-во добавлений в библиотеку">2323</span>
+                                    <span title="Кол-во прочтений">38</span>
+                                </div>
+                                <div class="libBibioteka">
+                                    <span>Убрать с библиотеки</span>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div>
+                                <a href="prosmotr.html">
+                                    <img src="static/images/bibiotecaSrc/02.jpg"" alt="">
+                                </a>                               
+                            </div>
+                            <div class="description">
+                                <h3>Кровь на клинке</h2>
+                                <p>Очнувшись после ранения, Руслан понимает, что его в этом мире приняли за своего, и теперь всё зависит только от него самого. Теперь необходимо, чтобы все вокруг перестали удивляться его необычности и считали, что он хоть и со странностями, но в доску свой. А значит, все его дела идут на пользу империи. А для начала нужно просто вернуть себе былую форму. Но даже ранение не может заставить его бросить начатое дело. Ведь главное для парня – закончить междоусобицу, из-за которой на Кавказе долгие годы льётся кровь.</p>
+                                <span>Возрастное ограничение: 16+</span>
+                            </div>
+                            <div class="bookInfo">
+                                <div class="buts"> 
+                                    <button>Читать</button>
+                                    <button>Просмотр</button>
+                                </div>
+                                <div class="countInfo">
+                                    <span title="Кол-во добавлений в библиотеку">2323</span>
+                                    <span title="Кол-во прочтений">38</span>
+                                </div>
+                                <div class="libBibioteka">
+                                    <span>Убрать с библиотеки</span>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div>
+                                <a href="prosmotr.html">
+                                    <img src="static/images/bibiotecaSrc/03.jpg" alt="">
+                                </a>                                
+                            </div>
+                            <div class="description">
+                                <h3>Повесть о Конце Света</h2>
+                                <p>История начинается c собрания богов, на котором решается судьба человечества: жизнь или смерть. Согласившись с никчёмностью рода людского, боги выбирают второе... Но одна валькирия выдвигает предложение: позволить богам и людям сразиться в битве, которая станет последним лучом надежды для человечества. 13 богов сразятся против 13 людских чемпионов в битвах один на один, чтобы решить, будет ли человечество жить или сгинет в могуществе божественной силы.</p>
+                                <span>Возрастное ограничение: 16+</span>
+                            </div>
+                            <div class="bookInfo">
+                                <div class="buts"> 
+                                    <button>Читать</button>
+                                    <button>Просмотр</button>
+                                </div>
+                                <div class="countInfo">
+                                    <span title="Кол-во добавлений в библиотеку">2323</span>
+                                    <span title="Кол-во прочтений">38</span>
+                                </div>
+                                <div class="libBibioteka">
+                                    <span>Убрать с библиотеки</span>
+                                </div>
+                            </div>
+                            
+                        </li>    
+                        <li>
+                            <div>
+                                <a href="prosmotr.html">
+                                    <img src="static/images/bibiotecaSrc/04.jpg" alt="">
+                                </a>                               
+                            </div>
+                            <div class="description">
+                                <h3>Обреченные пылать</h2>
+                                <p>Таша Палмер - молодая, уверенная в себе, “холодная” и красивая девушка, за внешним благополучием которой скрывается глубокая травма, срок годности которой - целое десятилетие. Многие знают о том, что произошло, но никто даже представить себе не может, через что ей пришлось пройти, чтобы выбороть право на жизнь. Когда на её пути появляется человек, начинающий уверенно открывать завесу её прошлого, она не осознаёт, насколько это серьёзно и как далеко может зайти. Пугающие тайны, цепочка роковых выборов и всепоглощающая страсть начинают скручиваться в один тугой клубок. Ни он, ни она ещё не подозревают, с чем связались, когда выбрали друг друга. Содержит нецензурную брань. "В книге встречается упоминание нетрадиционных сексуальных установок, но это не является пропагандой".</p>
+                                <span>Возрастное ограничение: 18+</span>
+                            </div>
+                            <div class="bookInfo">
+                                <div class="buts"> 
+                                    <button>Читать</button>
+                                    <button>Просмотр</button>
+                                </div>
+                                <div class="countInfo">
+                                    <span title="Кол-во добавлений в библиотеку">2323</span>
+                                    <span title="Кол-во прочтений">38</span>
+                                </div>
+                                <div class="libBibioteka">
+                                    <span>Убрать с библиотеки</span>
+                                </div>
+                            </div>
+                            
+                        </li>  
+                        <li>
+                            <div>
+                                <a href="prosmotr.html">
+                                    <img src="static/images/bibiotecaSrc/05.jpg" alt="">
+                                </a>                               
+                            </div>
+                            <div class="description">
+                                <h3>Тетрадь смерти</h2>
+                                <p>Ягами Лайт — образцовый 17-летний выпускник, баллы за экзамены которого находятся в первых строках рейтинга всей Японии. Сидя на уроке он замечает, что за окном что-то упало. После уроков он поднимает загадочный предмет и им оказывается чёрная тетрадь с надписью «Тетрадь смерти». Внутри была инструкция по использованию: «Человек, чьё имя будет записано в тетради — умрёт». Имея свои взгляды на систему наказания, Лайт решает установить собственное правосудие, использовать тетрадь для "очищения" мира от зла — убивать преступников. Когда действия Лайта становятся заметны для мирового правительства, на след неуловимого «Киры» (так мир окрестили нового мессию, решившего искоренить зло на планете) выходит детектив мирового класса, называющий себя «L», который поставил себе цель — поймать убийцу.</p>
+                                <span>Возрастное ограничение: 18+</span>
+                            </div>
+                            <div class="bookInfo">
+                                <div class="buts"> 
+                                    <button>Читать</button>
+                                    <button>Просмотр</button>
+                                </div>
+                                <div class="countInfo">
+                                    <span title="Кол-во добавлений в библиотеку">2323</span>
+                                    <span title="Кол-во прочтений">38</span>
+                                </div>
+                                <div class="libBibioteka">
+                                    <span>Убрать с библиотеки</span>
+                                </div>
+                            </div>
+                            
+                        </li>  
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="grid gridScroll">
+                <h1>Рекомендуем</h1>
+                <ul class="itemList">
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/01.jpg" alt="">
+                            <p>Адский рай</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/02.jpg" alt="">
+                            <p>Всё, что тебе нужно, — это убивать</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/03.jpg" alt="">
+                            <p>Необъятный океан</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/04.jpg" alt="">
+                            <p>Наруто</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/05.jpg" alt="">
+                            <p>Путь домохозяина</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/06.jpg" alt="">
+                            <p>Да, я паук, и что с того?</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/07.jpg" alt="">
+                            <p>Чёрный клевер</p>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomendManga/08.jpg" alt="">
+                            <p>Доктор Стоун</p>    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/01.jpg" alt="">
+                            <p>Красное солнце валькирии</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/02.jpg" alt="">
+                            <p>Воровка</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/03.jpg" alt="">
+                            <p>Давшая клятву</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/04.jpg" alt="">
+                            <p>Леди из Фроингема</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/05.jpg" alt="">
+                            <p>Утопленница</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/06.jpg" alt="">
+                            <p>Связанные ненавистью</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/07.jpg" alt="">
+                            <p>Знак Десяти</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="prosmotr.html">
+                            <img src="static/images/knigiSrc/recomend/08.jpg" alt="">
+                            <p>По щучьему велению. Официальная новеллизация</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button id="prevList"><</button>
+                    <button id="nextList">></button>
+                </div>
+            </div>
+            
+            <div class="contentInfo">
+                <p><strong>Для чего мне Библиотека?</strong></p>
+                <p>Во-первых, вы можете отложить любую заинтересовавшую вас книгу, чтобы потом легко найти ее в своей Библиотеке.</p>
+                <p>Во-вторых, если книга из вашей Библиотеки обновляется ее автором, вам будут приходить уведомления об этом, и вы не пропустите ничего интересного.</p>
+                <br>
+                <p><strong>Как добавить книгу в Библиотеку</strong></p>
+                <p>Ссылку “Добавить в библиотеку” вы встретите как на странице книги, так и в лентах книг. Даже читая книгу вы можете, не отвлекаясь, отложить книгу в свою Библиотеку, кликнув на ссылку в правой части страницы чтения.</p>
+                <br>
+                <p><strong>Чем еще полезна библиотека?</strong></p>
+                <p>В нижней части Библиотеки есть окно, где наш портал порекомендует книги, которые могут заинтересовать вас. Это - не реклама, лишь рекомендация. Мы постоянно работаем над настройками автоматического алгоритма рекомендаций, чтобы в этом окне вы видели только те книги, которые интересуют других пользователей со сходными вкусами.</p>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container footerContainer">
+                <h1>Информация</h1>
+                <div>
+                    <ul>
+                        <li>Новости</li>
+                        <li>Правообладателям</li>
+                        <li>Справка читателям</li>
+                        <li>О сайте</li>
+                        <li>Техническая информация</li>
+                        <li>Пользовательское соглашение</li>
+                        <li>Соглашение о конфиденциальности</li>
+                        <li>Авторы</li>
+                    </ul>
+                    <div class="money">
+                        <img src="static/images/footerMoney/visa.png" alt="">
+                        <img src="static/images/footerMoney/mira.png" alt="">
+                        <img src="static/images/footerMoney/MasterCard.png" alt="">
+                    </div>
+                    <div class="footerLogo">
+                        <p>Мы в соц.сетях:</p>
+                        <div class="footerMy">
+                            <a href="#"><img src="static/images/footerLogo/vk.png" alt=""></a>
+                            <a href="#"><img src="static/images/footerLogo/odnok.png" alt=""></a>
+                            <a href="#"><img src="static/images/footerLogo/youTube.png" alt=""></a>
+                        </div>
+                        <p>Внимание! Сайт может содержать материалы, не предназначенные для просмотра лицами, не достигшими 18 лет!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerAnimated">
+            </div>
+        </footer>
+
+        <script src="static/js/formRegister.js"></script>
+        <script src="static/js/scriptGridSlider.js"></script>
+        <script src="static/js/kategories.js"></script>
+    </body>
+</html>

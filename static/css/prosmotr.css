@@ -1,0 +1,347 @@
+body {
+    position: relative;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    height: 1200px;
+
+    margin-bottom: 20px;
+    
+}
+
+.backPicture {
+    width: 1366px;
+    height: 400px;
+    background-color: #d36161f8;
+
+    position: absolute;
+    top: 61px;
+
+    background-image: url(../images/prosmotr/phone02.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+    
+
+}
+
+.mediaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    margin-top: 315px;
+    z-index: 1000;
+}
+
+.mediaSidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 900px;
+}
+
+.mediaSidebar_Picture {
+    width: 100%;
+    height: 400px;
+    background-color: #a81f1f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    background-image: url(../images/prosmotr/01.jpg);
+
+}
+
+
+
+.mediaInfoList,
+.mediaInfoList_Item,
+.mediaContent,
+.mediaName_Body,
+.media_Body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mediaInfoList {
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
+    background-color: #d3c5d481;
+}
+
+.mediaInfoList_Item {
+    width: 100%;
+    
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.mediaInfoList_Title {
+    font-size: 16px;
+    height: 30px;
+    color: #8d6666;
+    text-align:justify;
+    padding-top: 10px;
+  
+}
+
+.mediaInfoList_Value {
+    font-size: 18px;
+    height: 35px;
+    color: #000000;
+    padding-top: 5px;
+    
+}
+
+
+.mediaContent {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 800px;
+    height: 900px;
+
+    margin-left: 10px;
+}
+
+.mediaName_Body_Buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65px;
+
+    background-color: #d4bcbc42;
+}
+
+.mediaName_Body {
+    margin-right: auto;
+    width: 400px;
+    height: 90%;
+    padding-left: 10px;
+   
+    
+}
+
+.mediaName_main {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.mediaName_Alt {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ffffff;
+}
+
+.mediaName_Buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 260px;
+    height: 90%;
+    position: relative;
+}
+
+.mediaName_Buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #918173;
+    border-radius: 5px;
+    border: none;
+    color: #eeecec;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    transition: .4s;
+    cursor: pointer;
+    position: relative;
+}
+
+.mediaName_Buttons button:nth-child(2) {
+    padding-left: 10px;
+    width: 135px;
+    margin-right: 10px;
+}
+
+.mediaName_Buttons button:nth-child(2)::before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    min-width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: none;
+    background-image: url(../images/bibioteka/folder01.png);
+}
+
+.mediaName_Buttons button:nth-child(2)::after {
+    display: block;
+    content: "";
+    position: absolute;
+    right: 0;
+    min-width: 15px;
+    height: 20px;
+    margin-right: 5px;
+    
+    background-color: none;
+    background-image: url(../images/bibioteka/down03.png);
+}
+.mediaName_Buttons button:nth-child(2)::before,
+.mediaName_Buttons button:nth-child(2)::after,
+.media_Reiting_svg,
+.mediaSidebar_Picture {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaName_Buttons button:hover {
+    background-color: #aa9a8c;
+}
+
+
+.button_head {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: auto;
+    visibility: hidden;
+    transition: .1s ease;
+    background-color:  #918173;
+    border-radius: 10px 5px;
+}
+
+.openBlock {
+    visibility: visible;
+}
+
+.button_head span {
+    width: auto;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+    
+    font-size: 16px;
+    
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #eeecec;
+    letter-spacing: 0.5px;
+}
+
+.button_head span:nth-child(1) {
+    margin-top: 5px;
+}
+
+.button_head span:hover {
+    background-color: #dfcec0;
+}
+
+
+.media_Body {
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #d3c5d481;
+
+}
+
+.media_Reitings {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 140px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.media_Reiting_svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background-image: url(../images/bibioteka/star01.png);
+}
+
+.media_Reiting_value {
+    font-size: 28px;
+    margin-right: 6px;
+    font-weight: 600;
+}
+
+.media_Reiting_count {
+    align-self: flex-end;
+    font-size: 20px;
+    opacity: .7;
+    padding-bottom: 2px;
+}
+
+.media_Tegs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.media_Tegs_Item {
+    padding: 5px 10px;
+    margin-right: 8px;
+    margin-top: 8px;
+    line-height: 14px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform:capitalize;
+    border: 1px solid #726f6d9c;
+    background-color: #d3c3b5;
+    color: #a81f1f;
+    transition: .4s ease;
+}
+
+.media_Tegs_Item:hover {
+    background-color: #b8aba0;
+
+}
+
+.media_Description {
+    margin-bottom: 6px;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 15px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.media_Description_Text {
+    line-height: 1.4;
+    max-width: 700px;
+}
